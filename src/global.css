@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #cceabb;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 30px;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}
+
+label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+    color: #3f3f44;
+}
+
+input[type='text'],
+input[type='email'] {
+    display: block;
+    width: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #3f3f44;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #3f3f44;
+    margin-bottom: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #fdcb9e;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
